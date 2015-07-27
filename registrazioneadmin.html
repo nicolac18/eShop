@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+
+<head>
+	<title>e-Shop Account</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
+</head>
+
+<body>
+	<div class="wrap">
+		<div id="header">
+			<div id="logo">
+				<a href="index.php"><h1>Pesca eShop</h1></a>
+				<a href="index.php"><img src="images/logo.png"></a>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href= "index.php">Home</a></li>
+					<li><a href="prodotti.php">Prodotti</a></li>
+					<li><a href= "account.php">Account</a></li>
+					<li><a href= "carrello.php">Carrello</a></li>
+					<li><a href= "amministrazione.php">Amministrazione</a></li>
+				</ul>
+			</div>
+			<div id="push"></div>
+		</div>
+
+		<div id="corpo">
+			<div id="sx">
+				<p>Registrazione</p>
+			</div>
+			
+			<div id="centro">
+				
+				<form action="php/addaccountadmin.php" method="post">
+				<fieldset>
+
+					<legend>Registrazione</legend>					
+					
+					<p>
+					<label for="nomeutente">NomeUtente*</label>
+					<input type="text" id="nomeutente" name="nomeutente">
+					</p>
+					
+					<p>
+					<label for="password">Password*</label>
+					<input type="password" id="password" name="password">
+					</p>
+					
+					<p>
+					<label for="nome">Nome</label>
+					<input type="text" id="nome" name="nome">
+					</p>
+
+					<p>
+					<label for="cognome">Cognome</label>
+					<input type="text" id="cognome" name="cognome">
+					</p>
+
+					<p>
+					<label for="email">Email</label>
+					<input type="text" id="email" name="email">
+					</p>
+
+					<p>
+					<label for="matricola">Matricola</label>
+					<input type="text" id="matricola" name="matricola">
+					</p>
+
+					<p>I campi contrassegnati con * sono obbligatori.</p>
+					
+					<p>
+					<input type="submit" value="Invia">
+					</p>
+
+				</fieldset>
+				</form>
+
+			</div>
+			
+			<div id="push"></div>
+		</div>
+	
+			
+		<div id="footer">
+			<p>Copyright 2013  |  Pesca eShop  |  Nicola Carraro</p>
+		</div>
+	</div>
+</body>
+</html>

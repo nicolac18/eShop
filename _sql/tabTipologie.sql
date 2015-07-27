@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS Tipologie;
+
+CREATE TABLE Tipologie (
+	Nome VARCHAR (20) PRIMARY KEY
+) ENGINE= InnoDB;

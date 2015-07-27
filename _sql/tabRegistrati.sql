@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS Registrati;
+
+CREATE TABLE Registrati (
+	NomeUtente VARCHAR (20) PRIMARY KEY,
+	Indirizzo VARCHAR (50),
+	Citta INT,
+	Carta CHAR(16),
+	Carrello INT NOT NULL,
+	
+	FOREIGN KEY (NomeUtente) REFERENCES Utenti (NomeUtente)
+		ON DELETE CASCADE
+		ON UPDATE CASCADE,
+		
+	FOREIGN KEY (Citta) REFERENCES Citta (CodiceID)
+		ON DELETE NO ACTION
+		ON UPDATE CASCADE,
+		
+	FOREIGN KEY (Carrello) REFERENCES Carrelli (CodiceID)		
+		ON DELETE NO ACTION
+		ON UPDATE CASCADE
+		
+) ENGINE= InnoDB;

@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS Citta;
+
+CREATE TABLE Citta (
+	CodiceID INT PRIMARY KEY,
+	Nome VARCHAR (20),
+	Provincia CHAR (2)
+	
+) ENGINE= InnoDB;

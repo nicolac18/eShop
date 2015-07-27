@@ -1,0 +1,7 @@
+DROP FUNCTION IF EXISTS maxCodCarrello;
+CREATE FUNCTION maxCodCarrello () RETURNS INT 
+BEGIN
+	DECLARE maxCod INT;
+	SELECT MAX(CodiceID) INTO maxCod FROM Carrelli;
+	RETURN maxCod;
+END

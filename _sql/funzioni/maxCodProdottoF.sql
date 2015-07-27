@@ -1,0 +1,7 @@
+DROP FUNCTION IF EXISTS maxCodProdotto;
+CREATE FUNCTION maxCodProdotto () RETURNS INT 
+BEGIN
+	DECLARE maxCod INT;
+	SELECT MAX(CodiceID) INTO maxCod FROM Prodotti;
+	RETURN maxCod;
+END

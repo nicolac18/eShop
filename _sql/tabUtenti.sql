@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS Utenti;
+
+CREATE TABLE Utenti (
+	NomeUtente VARCHAR (20) PRIMARY KEY,
+	Password VARCHAR (20) NOT NULL,
+	Nome VARCHAR (30),
+	Cognome VARCHAR (30),
+	Email VARCHAR (50)
+		
+) ENGINE= InnoDB;

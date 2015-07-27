@@ -1,0 +1,7 @@
+DROP FUNCTION IF EXISTS maxCodAcquisto;
+CREATE FUNCTION maxCodAcquisto () RETURNS INT 
+BEGIN
+	DECLARE maxCod INT;
+	SELECT MAX(CodiceID) INTO maxCod FROM Acquisti;
+	RETURN maxCod;
+END

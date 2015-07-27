@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS Prodotti;
+
+CREATE TABLE Prodotti (
+	CodiceID INT PRIMARY KEY,
+	Nome VARCHAR (20),
+	Prezzo REAL,
+	Quantita INT DEFAULT 0,
+	Marca VARCHAR (20),
+	Tipologia VARCHAR (20),
+	Descrizione VARCHAR (100),
+	Immagine VARCHAR (20),
+	
+	FOREIGN KEY (Marca) REFERENCES Marche (Nome)
+		ON DELETE NO ACTION
+		ON UPDATE CASCADE,
+		
+	FOREIGN KEY (Tipologia) REFERENCES Tipologie (Nome)
+		ON DELETE NO ACTION
+		ON UPDATE CASCADE
+		
+) ENGINE= InnoDB;

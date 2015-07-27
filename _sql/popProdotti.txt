@@ -1,0 +1,14 @@
+1$Warrior$75$15$FOX$canne$Canna da carpfishing adatta con ottimo rapporto qualità/prezzo$images/canne.jpg$
+2$Tribal$300$5$Shimano$canne$Canna da carpfishing di ottima qualità$images/canne.jpg$
+3$Ultegra$250$10$Shimano$mulinelli$Mulinello da carpfishing con baitrunner e il top della tecnologia Shimano$images/mulinelli.jpg$
+4$Endless$90$15$K-Karp$mulinelli$Mulinello da carpfishing con baitrunner$images/mulinelli.jpg$
+5$NTX-D CAM Mono$30$5$Nash$fili$Filo di ottima qualità con colorazione camo, resistente all'abrasione$images/fili.jpg$
+6$Black Metal$28$5$BigFish$fili$Filo affondante molto resistente all'abrasione, di colore nero$images/fili.jpg$
+8$Stiletto$3.10$20$BigFish$ami$Amo lungo per terminali con pop-up$images/ami.jpg$
+9$Boiles Fragola$13$30$Nash$boiles$Boiles alla fragola$images/boiles.jpg$
+10$RodPod Silver$400$2$Fishcon$rodpod$Rodpod di alta qualita in acciaio$$
+11$Alivio$50$20$Shimano$canne$Canna da carpfishing adatta per i principianti$images/canne.jpg$
+12$NTX-R$750$2$FOX$avvisatori$Il top della gamma degli avvisatori di marchio FOX$$
+13$Pera$1.10$10$BigFish$piombi$Piombo a pera$images/piombi.jpg$
+14$Arma5$4.10$20$FOX$ami$Amo da carpfishing classico$images/ami.jpg$
+15$Piattello$1.30$15$Nash$piombi$Piombo a piattello mimetico$images/piombi.jpg

@@ -1,0 +1,12 @@
+DROP TRIGGER IF EXISTS controlloNomeUtente;
+CREATE TRIGGER controlloNomeUtente BEFORE INSERT ON Utenti
+FOR EACH ROW
+BEGIN
+	DECLARE nom VARCHAR (10);
+	
+	SELECT NomeUtente INTO nom FROM Utenti WHERE NomeUtente= NEW.NomeUtente;
+	IF (nom IS NOT NULL) THEN
+		INSERT INTO Errori VALUE(NULL);
+	END IF;
+	
+END $

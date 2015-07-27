@@ -1,0 +1,9 @@
+a. carrelli confermati in un periodo dal al
+b. prodotti più acquistati dagli utenti
+c. prodotti non venduti in un periodo che va dal al
+d. spesa più grande effettuata da un cliente
+
+1. numero carrelli confermati dagli amministratori nell'ultimo semestre 2012
+2. spesa più grande effettuata da ogni cliente
+3. prodotto più venduto
+4. prodotti non venduti negli ultimi sei mesi

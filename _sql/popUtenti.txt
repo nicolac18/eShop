@@ -1,0 +1,8 @@
+admin,admin,,,,
+nicolac,nicolac,Nicola,Carraro,nicola_carraro@hotmail.it,
+tonib,toni123,Toni,Buzziol,tb@hotmail.com,
+bepid,bepi,Bepi,D,bepid@hotmail.it,
+lucab,lucaadmin,Luca,Bus,lucb@gmail.com,
+federico91,fede91,Federico,Pavan,fedep91@live.com,
+chiaraCarpa,chiaretta11,Chiara,Scura,chiarascura@libero.it,
+enriq90,enriq90,Enrico,Quarto,enricoq@gmail.com
